@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, request, make_response
 app = Flask(__name__)
 
 number = 0
+# this is a comment
 
 @app.route('/')
 def index():
